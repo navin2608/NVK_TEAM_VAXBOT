@@ -1,0 +1,12 @@
+var total_centers=context.vaccination_centers.length
+if(total_centers>0){
+    print('Totally '+total_centers+" vaccination center(s) available for the pincode "+ context.entities.Yes +'<br><br>')
+
+for(var i=0;i<total_centers;i++){
+    print(
+        '>>'+(i+1)+') *'+context.vaccination_centers[i].name+'*<br>'+'Available Vaccine: '+context.vaccination_centers[i].vaccine)
+    print('<br>')
+}}
+else if(total_centers===0){
+    print("Sorry, no vaccination centers available for this PinCode")
+}
