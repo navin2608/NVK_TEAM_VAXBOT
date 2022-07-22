@@ -1,0 +1,18 @@
+//parsing account information and Updating LOE for fromAcc entity
+var resp = (context.ApiCallforCenters && context.ApiCallforCenters.response)?context.ApiCallforCenters.response:{};
+var body = (resp && resp.body)?resp.body:[];
+if(!context.ApiCallforCenters && resp.statusCode==500)
+    context.retry = true; 
+else
+    context.retry = undefined;
+var centers = [];
+for(var i=0;i<body.sessions.length;i++){
+    var obj = {
+        "name":body.sessions[i].name+", "+body.sessions[i].block_name,
+        "vaccine":body.sessions[i].vaccine,
+        
+    };
+    centers.push(obj);
+}
+context.vaccination_centers=[]
+context.vaccination_centers=centers;
