@@ -1,0 +1,120 @@
+https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={{context.entities.Yes}}&date=31-03-2021
+
+
+{
+  "statusCode": 200,
+  "body": {
+    "sessions": [
+      {
+        "center_id": 640385,
+        "name": "Thittasalai Mini Clinic",
+        "address": "",
+        "state_name": "Tamil Nadu",
+        "district_name": "Karur",
+        "block_name": "Karur",
+        "pincode": 639006,
+        "from": "09:00:00",
+        "to": "18:00:00",
+        "lat": 10,
+        "long": 78,
+        "fee_type": "Free",
+        "session_id": "a6ac12d4-b076-4884-b591-391a31a231bf",
+        "date": "31-03-2021",
+        "available_capacity": 0,
+        "available_capacity_dose1": 0,
+        "available_capacity_dose2": 0,
+        "fee": "0",
+        "min_age_limit": 45,
+        "vaccine": "COVISHIELD",
+        "slots": [
+          {
+            "time": "09:00AM-11:00AM",
+            "seats": 0
+          },
+          {
+            "time": "11:00AM-01:00PM",
+            "seats": 0
+          },
+          {
+            "time": "01:00PM-03:00PM",
+            "seats": 0
+          },
+          {
+            "time": "03:00PM-06:00PM",
+            "seats": 0
+          }
+        ]
+      },
+      {
+        "center_id": 640380,
+        "name": "Vangapalayam Mini Clinic",
+        "address": "",
+        "state_name": "Tamil Nadu",
+        "district_name": "Karur",
+        "block_name": "Karur",
+        "pincode": 639006,
+        "from": "09:00:00",
+        "to": "18:00:00",
+        "lat": 10,
+        "long": 78,
+        "fee_type": "Free",
+        "session_id": "8773b388-3ff0-4e1b-ad30-96568ab11d9e",
+        "date": "31-03-2021",
+        "available_capacity": 0,
+        "available_capacity_dose1": 0,
+        "available_capacity_dose2": 0,
+        "fee": "0",
+        "min_age_limit": 45,
+        "vaccine": "COVISHIELD",
+        "slots": [
+          {
+            "time": "09:00AM-11:00AM",
+            "seats": 0
+          },
+          {
+            "time": "11:00AM-01:00PM",
+            "seats": 0
+          },
+          {
+            "time": "01:00PM-03:00PM",
+            "seats": 0
+          },
+          {
+            "time": "03:00PM-06:00PM",
+            "seats": 0
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "date": "Thu, 21 Jul 2022 16:55:16 GMT",
+    "x-amzn-requestid": "e8c296a1-b3cc-46ba-9088-9afb7fdd196a",
+    "x-dns-prefetch-control": "off",
+    "x-xss-protection": "1; mode=block",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "x-amzn-remapped-content-length": "1193",
+    "x-frame-options": "DENY",
+    "access-control-allow-headers": "Content-Type, Authorization",
+    "x-amzn-remapped-connection": "keep-alive",
+    "x-download-options": "noopen",
+    "x-amz-apigw-id": "VoG2PEEfBcwFVaA=",
+    "x-content-type-options": "nosniff",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-expose-headers": "Version",
+    "x-amzn-trace-id": "Root=1-62d984f4-2d84cac27fe9552a1bf5bf7e",
+    "x-amzn-remapped-date": "Thu, 21 Jul 2022 16:55:16 GMT",
+    "access-control-allow-credentials": "true",
+    "content-encoding": "gzip",
+    "etag": "W/\"4a9-piJa3O/7BpDikRtICoR4qzCdjns\"",
+    "vary": "Accept-Encoding",
+    "x-cache": "RefreshHit from cloudfront",
+    "via": "1.1 b13c6d10b44fd12a68a8ca01d540a750.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "IAD89-C2",
+    "x-amz-cf-id": "Pmd66sGG3z1GVo776c35bxIxLkjWgyDKqZj0ukpVRNFkZk2KAL6nGg=="
+  }
+}
